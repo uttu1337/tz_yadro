@@ -213,7 +213,7 @@ void check_event(std::ifstream &myFile){ //функция проверки со�
 }
 int main(int argc, char** argv) {
     std::ifstream fileToRead(argv[1]);
-    fileToRead.open("C:/Users/uttu/.vscode/stuff/yadro/test_file.txt"); // открываем файл
+    //fileToRead.open("C:/Users/uttu/.vscode/stuff/yadro/test_file.txt"); // открываем файл
     
     cyberClubStart(fileToRead); //инициализируем работу
     while(fileToRead.good()) { // до концца файла проверяем на события
